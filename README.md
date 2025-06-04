@@ -10,7 +10,7 @@ This has been a complaint for years now and while the Discord developers have ac
 
 This program utilizes the fact that Discord is launched by a seperate executable in a location that never changes with updates. 
 
-The default shortcuts for Discord do not point the Discord executable itself, but rather an Update executable: `%LocalAppData%\Discord\Update.exe --processStart Discord.exe`
+The default shortcuts for Discord do not point to the Discord executable itself, but rather an updater executable: `%LocalAppData%\Discord\Update.exe --processStart Discord.exe`
 This updater launches first, checks for and applies updates if available, and then launches Discord (somehow determining the path with the version number).
 
 **We take advantage of this two stage process as follows:**
