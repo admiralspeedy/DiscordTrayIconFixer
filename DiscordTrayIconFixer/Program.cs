@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics;
 
-namespace DiscordTrayFixer
+namespace DiscordTrayIconFixer
 {
     internal class Program
     {
